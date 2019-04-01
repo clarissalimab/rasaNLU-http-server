@@ -1,0 +1,86 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Oi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Olá",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Ei",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "E aí",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Bom dia",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Tudo bem?",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Tchau",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Xau",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Flw",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Até mais",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Beijos",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Valeu",
+        "intent": "thank",
+        "entities": []
+      },
+      {
+        "text": "Obrigado",
+        "intent": "thank",
+        "entities": []
+      },
+      {
+        "text": "Obrigada",
+        "intent": "thank",
+        "entities": []
+      },
+      {
+        "text": "Obg",
+        "intent": "thank",
+        "entities": []
+      },
+      {
+        "text": "Vlw",
+        "intent": "thank",
+        "entities": []
+      }
+    ]
+  }
+}
