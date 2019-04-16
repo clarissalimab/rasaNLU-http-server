@@ -1,5 +1,6 @@
 ## Instalação
-Instale o RasaNLU usando com o pipeline do spaCy:
+### spaCy
+Instale o RasaNLU com o pipeline do spaCy:
 ```
 $ pip install rasa_nlu[spacy]
 ```
@@ -17,13 +18,31 @@ $ python -m spacy link pt_core_news_sm pt
 
 Veja a [documentação do spaCy](https://spacy.io/usage/models) para outros idiomas.
 
-## Execução
-Para treinar o bot:
+### Tensorflow
+Instale o RasaNLU usando com o pipeline do Tensorflow:
+```
+$ pip install rasa_nlu[tensorflow]
+```
+
+Se você estiver usando o zsh, talvez você precise rodar assim:
+```
+$ pip install rasa_nlu'[tensorflow]'
+```
+
+## Treinamento
+### spaCy
+Para treinar o bot usando o spaCy:
 
 ```
 $ python -m rasa_nlu.train -c config_spacy.json -d data/
 ```
 
+### Tensorflow
+```
+$ python -m rasa_nlu.train -c config_tensorflow.yml -d data/
+```
+
+## Servidor
 Para iniciar o servidor:
 ```
 $ python -m rasa_nlu.server --path models/nlu
