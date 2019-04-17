@@ -39,19 +39,19 @@ $ python3 -m rasa_nlu.train -c config_spacy.json -d data/
 
 ### Tensorflow
 ```
-$ python3 -m rasa_nlu.train -c config_tensorflow.yml -d data/
+$ python3 -m rasa_nlu.train -c config_tensorflow.yml -d data/ --path confidence_evaluation -o models --fixed_model_name nlu
 ```
 
 ## Servidor
 Para iniciar o servidor:
 ```
-$ python3 -m rasa_nlu.train -c config_tensorflow.yml --data data/ -o models --verbose 
+$ python3 -m rasa_nlu.server --path models/
 ```
 
 ## Requisição
 Você pode fazer uma requisição para o seu servidor com a seguinte URL:
 ```
-http://localhost:5000/parse?q=[SEU_TEXTO_AQUI]
+http://localhost:5000/parse?q=[SEU TEXTO AQUI]&model=nlu
 ```
 
 Dependendo de como você fez o treinamento, possivelmente você precise passar o nome do projeto como parâmetro na requisição (project=[nome do seu projeto]).
