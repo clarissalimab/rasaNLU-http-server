@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/clarissa/Programming/rasaNLU-http-server/confidence_evaluation/default/model_20190416-165830/intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "/home/clarissa/Programming/rasaNLU-http-server/confidence_evaluation/default/model_20190416-165830/intent_classifier_tensorflow_embedding.ckpt"

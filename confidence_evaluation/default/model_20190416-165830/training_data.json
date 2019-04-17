@@ -1,0 +1,73 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "Oi"
+      },
+      {
+        "intent": "greet",
+        "text": "Olá"
+      },
+      {
+        "intent": "greet",
+        "text": "Ei"
+      },
+      {
+        "intent": "greet",
+        "text": "E aí"
+      },
+      {
+        "intent": "greet",
+        "text": "Bom dia"
+      },
+      {
+        "intent": "greet",
+        "text": "Tudo bem?"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Tchau"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Xau"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Flw"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Até mais"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Beijos"
+      },
+      {
+        "intent": "thank",
+        "text": "Valeu"
+      },
+      {
+        "intent": "thank",
+        "text": "Obrigado"
+      },
+      {
+        "intent": "thank",
+        "text": "Obrigada"
+      },
+      {
+        "intent": "thank",
+        "text": "Obg"
+      },
+      {
+        "intent": "thank",
+        "text": "Vlw"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}
