@@ -1,6 +1,5 @@
 # Virtualenv
 ## Instalação
-### Tensorflow
 Instale o RasaNLU usando com o pipeline do Tensorflow:
 ```
 $ pip install rasa_nlu[tensorflow]
@@ -12,14 +11,6 @@ $ pip install rasa_nlu'[tensorflow]'
 ```
 
 ## Treinamento
-### spaCy
-Para treinar o bot usando o spaCy:
-
-```
-$ python3 -m rasa_nlu.train -c config_spacy.json -d data/
-```
-
-### Tensorflow
 ```
 $ make train
 ```
