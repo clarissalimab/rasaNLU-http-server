@@ -1,3 +1,8 @@
+# Rasa NLU Server
+Este é um pequeno boilerplate para aplicações que desejam utilizar o Rasa NLU para compreender falas simples e identificar entidades. Envie um olá para o bot em:
+
+https://rasanlu-server.herokuapp.com/parse?q=olá&model=nlu
+
 # Virtualenv
 ## Instalação
 Instale o RasaNLU usando com o pipeline do Tensorflow:
