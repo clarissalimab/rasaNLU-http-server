@@ -14,4 +14,4 @@ VOLUME ["/app/models", "/app/logs", "/app/data"]
 
 EXPOSE 5000
 
-CMD make train && make serve-logging
+CMD make train && make serve
