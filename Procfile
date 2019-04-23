@@ -1,1 +1,1 @@
-web: python setup.py install --force; python3 -m rasa_nlu.server --path models/ -P $PORT
+web: python -m pip install --upgrade pip; pip install -r requirements.txt; python -m rasa_nlu.server --path models/ -P $PORT
