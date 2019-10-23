@@ -81,6 +81,26 @@
         "intent": "thank",
         "entities": []
       }
+      {
+        "text": "tchauzinho",
+        "intent": "goodbye",
+        "entities": []
+      }
+      {
+        "text": "Vê se me liga",
+        "intent": "goodbye",
+        "entities": []
+      }
+      {
+        "text": "Vlw",
+        "intent": "thank",
+        "entities": []
+      }
     ]
+     {
+        "text": "Hello, is it me you're looking for?"
+        "intent": "greet"
+        "entities": []
+    }
   }
 }
